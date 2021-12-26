@@ -1,0 +1,148 @@
+:root {
+    --primary: rgb(59,110,196);
+    --card-color: #33475A;
+    --border-radius: .3rem;
+
+}
+
+body {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    font-family: "IBM Plex Sans", sans-serif;
+    color: black;
+    line-height: 2.0;
+    font-size: 18px;
+    
+}
+
+main {
+   
+  }
+
+h1,
+h2{
+  font-weight: bold;
+  margin: 0;
+  line-height: 1.25;
+  font-size: 30px;
+  color: black;
+}
+
+h3{
+    font-weight: bold;
+    margin: 0;
+    line-height: 1.25;
+    font-size: 23px;
+    color: black;
+  }
+
+.hero {
+    background-image: linear-gradient(to right, var(--primary), rgb(35,5,85));
+    
+}
+
+.hero .app-title {
+    color: white;
+    text-align: center;
+    padding: 10px 0 15px 0;
+}
+
+.form-input {
+    width: 100%;
+    padding: 3%;
+    font-size: 1.2rem;
+    border: 2px solid darkgrey;
+    border-radius: var(--border-radius);
+}
+
+.btn {
+    background-color: var(--primary);
+    border: none;
+    color: white;
+    cursor: pointer;
+    margin: 15px;
+    border-radius: var(--border-radius);
+}
+
+.list-group {
+    padding: 0;
+    list-style: none;
+  }
+
+.list-item {
+    margin-bottom: 10px;
+    padding: 1.5%;
+    border-radius: var(--border-radius);
+    background-color: #B7B7B7;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+}
+
+.uv-favorable {
+    padding: 0.5%;
+    border-radius: var(--border-radius);
+    background-color: #157E51;
+    color: white;
+    text-decoration: none;
+}
+
+.uv-moderate {
+    padding: 0.5%;
+    border-radius: var(--border-radius);
+    background-color: #fffb00;
+    color: white;
+    text-decoration: none;
+}
+
+.uv-severe {
+    padding: 0.5%;
+    border-radius: var(--border-radius);
+    background-color: #ff0000;
+    color: white;
+    text-decoration: none;
+}
+
+.forecast {
+    width:100%;
+    gap: 20px;
+    margin-top: 15px;
+}
+
+.weather-card {
+    border-radius: var(--border-radius);
+    background-color: var(--card-color);
+    color: white;
+    text-decoration: none;
+    padding-top: 10px;
+    padding-left: 10px;
+    width: 100%;
+    line-height: 1.5;
+
+}
+
+.bold-text {
+    font-weight: bold;
+}
+
+.font-20 {
+    font-size: 40px;
+    line-height: 1.0;
+}
+
+.list-group {
+    margin-top: 10px;
+}
+
+.city-list {   
+    margin-bottom: 10px;
+    border-radius: var(--border-radius);
+    border: none;
+    background-color: lightgray;
+    color: black;
+}
+
+.city-list:hover {
+    background-color: var(--card-color);
+}
