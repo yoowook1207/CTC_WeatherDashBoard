@@ -218,6 +218,9 @@ let fillUpInput = function() {
 
 var loadTasks = function() {
     tempArr = JSON.parse(localStorage.getItem("cities"))
+    if (!tempArr) {
+        tempArr = []
+    }
     for (i=0; i<tempArr.length; i++) {
         citySaveList(tempArr[i].city, tempArr[i].state)
     }
