@@ -1,4 +1,4 @@
-## Please read before review the page
+## Please read before run the application
 Module mock-up has only one input, but I used two input to put city name, and the state name. This prevents that the API brings another same name of city from a random state by user's input.
 
 # Cloudy Then Clear - Weather Dashboard
@@ -16,4 +16,4 @@ color indicates/ favorable=green, moderate=yellow, severe=red
 ### Click from search history
 search history would remain from refreshing page / presented with current and future conditions for the city
 
-![alt text](https://github.com/yoowook1207/CTC_WeatherDashboard/blob/main/screenshot.png)
+![alt text](https://github.com/yoowook1207/CTC_WeatherDashboard/blob/main/weatherdashboard-scrshot.png)
